@@ -15,12 +15,16 @@ npm install --save react-clickable-div
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-clickable-div'
+import ClickableDiv from 'react-clickable-div'
 import 'react-clickable-div/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <ClickableDiv className="my-awesome-div" onClick={() => { console.log('CLICKED'); }}>
+        I am a clickable div!
+      </ClickableDiv>
+    )
   }
 }
 ```
