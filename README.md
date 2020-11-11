@@ -10,6 +10,8 @@
 npm install --save react-clickable-div
 ```
 
+## [Demo](https://storm2513.github.io/react-clickable-div/)
+
 ## Usage
 
 ```jsx
